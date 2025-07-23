@@ -1,3 +1,4 @@
+#Read through the comments to understad variables
 # print("Hello, Deepseeds")
 
 # #why we need variables: for code reusability
@@ -95,3 +96,16 @@ print(f"The Area of the rectabgle with length {length} and width {width} is {are
 temp_in_celsius = float(input("Enter temperature in celsius: "))
 temp_in_fahrenheit = (temp_in_celsius * (9/5)) + 32
 print(f"{temp_in_celsius} degree celsius in Fahrenheit is {temp_in_fahrenheit} degree Fahrenheit")
+
+#4. 
+#Swap variacles put. like if a is 5 and b is 6, the output should be the resverse.
+
+a = int(input("Enter first num ber to be swapped: "))
+b = int(input("Enter second number for swapping: "))
+
+print(f"The value entered for a = {a} and for b = {b}")
+temp = a
+a = b
+b = temp
+
+print(f"After swap, a = {a}\n b = {b}")
