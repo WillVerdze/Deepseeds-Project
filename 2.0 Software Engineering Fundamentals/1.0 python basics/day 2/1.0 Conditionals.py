@@ -149,3 +149,4 @@ elif operator == "/":
         print(f"The result of {first_number} {operator} {second_number} = {result}")
 else:
     print("Operator not recognised.")
+    
