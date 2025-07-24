@@ -30,15 +30,19 @@ u = False
 d = False
 
 #password = input("Enter your password: ")
-for letter in password:
-    if letter.islower():
-        l = True
-    elif letter.isupper():
-        u = True
-    elif letter.isdigit():
-        d = True
+if len(password)>= 8:
+    for letter in password:
+        if letter.islower():
+            l = True
+        elif letter.isupper():
+            u = True
+        elif letter.isdigit():
+            d = True
     
-if l and u and d:
-    print("Strong password")
+    if l and u and d:
+        print("Strong password")
+    else:
+        print("Weak password")
 else:
-    print("Weak password")
+    print("Password is shorter than 8 characters")
+            
