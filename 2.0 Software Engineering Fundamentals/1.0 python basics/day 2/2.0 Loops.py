@@ -141,3 +141,29 @@ for fruit in fruits:
     #Goes through the fruit list at each iteration and prints a new one
     print(f"{number}. I have a {fruit}")
     number = number + 1
+
+#looping through strings
+my_name = "fjsdhuijdkzscn"
+for letter in "my_name":
+    print(f"letter: {letter}")
+
+  
+#Exercise
+#Multiplication table
+for i in range (12):
+    print("\n\n")
+    print("*"*50)
+    
+    for j in range(12):
+        result = i*j
+        print(f"{i} * {j} = {result}")
+        
+#Sum calculator
+#Adds all numbers from 1 to 10
+sum = 0 
+i=0
+while i <= 10:
+    sum=sum+i
+    i=i+1
+print(f"The sum of all numbers from 1 to 10 = {sum}")
+    
