@@ -1,49 +1,49 @@
-# # import random
+# import random
 
-# # target = random.randint(1, 10)
-# # guess = 0
-# # attempts = 0
+# target = random.randint(1, 10)
+# guess = 0
+# attempts = 0
 
-# # print("I'm thinking of a number between 1 and 10...")
-# # while guess != target and attempts < 3:
-# #     guess = int(input("Please enter your guess: ")) # Simulating user guess
-# #     attempts += 1
+# print("I'm thinking of a number between 1 and 10...")
+# while guess != target and attempts < 3:
+#     guess = int(input("Please enter your guess: ")) # Simulating user guess
+#     attempts += 1
 
-# #     if guess == target:
-# #         print(f"Correct! The number was {target}")
-# #         print(f"It took {attempts} attempts")
-# #     elif guess < target:
-# #         print(f"Guess {guess} is too low")
-# #     else:
-# #         print(f"Guess {guess} is too high")
+#     if guess == target:
+#         print(f"Correct! The number was {target}")
+#         print(f"It took {attempts} attempts")
+#     elif guess < target:
+#         print(f"Guess {guess} is too low")
+#     else:
+#         print(f"Guess {guess} is too high")
 
-# # if guess != target:
-# #     print(f"Sorry! The number was {target}")
+# if guess != target:
+#     print(f"Sorry! The number was {target}")
 
 
-# # Password validator
-# # def validate_password(password):
-# #     has_upper = False
-# #     has_lower = False
-# #     has_digit = False
+# Password validator
+# def validate_password(password):
+#     has_upper = False
+#     has_lower = False
+#     has_digit = False
 
-# #     for char in password:
-# #         if char.isupper():
-# #             has_upper = True
-# #         elif char.islower():
-# #             has_lower = True
-# #         elif char.isdigit():
-# #             has_digit = True
+#     for char in password:
+#         if char.isupper():
+#             has_upper = True
+#         elif char.islower():
+#             has_lower = True
+#         elif char.isdigit():
+#             has_digit = True
 
-# #     return has_upper and has_lower and has_digit and len(password) >= 8
+#     return has_upper and has_lower and has_digit and len(password) >= 8
 
-# # # Test passwords
-# # passwords = ["Password123", "password", "PASSWORD", "Pass123"]
-# # for pwd in passwords:
-# #     if validate_password(pwd):
-# #         print(f"'{pwd}' is a strong password ✓")
-# #     else:
-# #         print(f"'{pwd}' is a weak password ✗")
+# # Test passwords
+# passwords = ["Password123", "password", "PASSWORD", "Pass123"]
+# for pwd in passwords:
+#     if validate_password(pwd):
+#         print(f"'{pwd}' is a strong password ✓")
+#     else:
+#         print(f"'{pwd}' is a weak password ✗")
 
 # password=input("Please enter your password: ")
 # has_lower=False
@@ -167,3 +167,13 @@ while i <= 10:
     i=i+1
 print(f"The sum of all numbers from 1 to 10 = {sum}")
     
+#Triangle pattern
+print("The triangle pattern")
+for row in range (1,6):
+    for star in range(row):
+        print("*", end="")
+    print()
+for row in range(6,0,-1):
+    for star in range(row):
+        print("*",end="")
+    print()
