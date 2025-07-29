@@ -1,7 +1,7 @@
 import random
 num = random.randint(1, 30)
 i = 1
-while i < 5:
+while i < 3:
     n = int(input("Enter your guess: "))
     if n < num:
         print("Less than target")
@@ -12,4 +12,5 @@ while i < 5:
     elif n == num:
         print("You win")
         break
-    
+if n != num:
+    print("The corect guess is {num}")
