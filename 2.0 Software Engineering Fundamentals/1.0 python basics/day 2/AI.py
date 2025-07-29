@@ -58,12 +58,12 @@ while True:
         
     elif user_input.startswith("draw"):
         selected_art = random.choice(ascii_art_diagrams)
-        print("\n Here's your random ASCII drawing:")
+        print("\n 🎨 Here's your random ASCII drawing:")
         print(selected_art)
         
     elif user_input.startswith("write"):
         selected_prompt = random.choice(story_prompts)
-        print("\n Here's a random creative writing prompt:")
+        print("\n 📝 Here's a random creative writing prompt:")
         print(selected_prompt)
     
     else:
