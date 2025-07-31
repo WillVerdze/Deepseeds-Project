@@ -25,26 +25,27 @@
     
 # read_simple_file()
 
-def read_simple_file():
-    """     """
-    try:
-        with open("sample.txt", "r") as file:
-            content = file.read()
-            print(f"Content is: {content}")
-            return content
-    except FileNotFoundError:
-        return "file not found dude, please try again"
+# def read_simple_file():
+#     """     """
+#     try:
+#         with open("sample.txt", "r") as file:
+#             content = file.read()
+#             print(f"Content is: {content}")
+#             return content
+#     except FileNotFoundError:
+#         return "file not found dude, please try again"
     
-read_simple_file()
+# read_simple_file()
 
-def read_simple_file2():
-    """     """
-    try:
-        with open("sample.txt", "r") as file:
-            print("Reading line by line___\n\n")
-            for i, line in enumerate(file, 1):
-                print(f"\nLine{i}: {line.strip()}")
-    except FileNotFoundError:
-        return "file not found dude, please try again"
+# def read_simple_file2():
+#     """     """
+#     try:
+#         with open("sample.txt", "r") as file:
+#             print("Reading line by line___\n\n")
+#             for i, line in enumerate(file, 1):
+#                 print(f"\nLine{i}: {line.strip()}")
+#     except FileNotFoundError:
+#         return "file not found dude, please try again"
     
-read_simple_file2()
+# read_simple_file2()
+
