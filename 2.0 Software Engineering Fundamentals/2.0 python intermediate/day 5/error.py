@@ -24,6 +24,7 @@ def division_error():
 
 
 def dictionary_error(data):
+    style()
     
     try:
         color = data["color"]
